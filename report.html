@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report</title>
+        <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Font -->
+
+    <!-- Font Awesome Icons-->
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/v4-shims.min.css">
+    <!-- Font Awesome Icons-->
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <div class="main_div">
+
+        <!-- side nav -->
+        <div class="side_nav">
+            <div class="logo">
+                <div class="logo_inner" id="side_nav">
+                    <img src="Image/logo-2.png" alt="">
+            <i class="fa fa-arrow-left" onclick="navClose()"></i>                
+
+                </div>
+            </div>
+            
+            <nav>
+            <ul>
+                <li> <a href="dashboard.html" class="fa fa-grip"><p>Dashboard</p></a> </li>
+                <li> <a href="categories.html" class="fa fa-align-left"><p>Category</p></a> </li>
+                <li> <a href="report.html" class="fa fa-chart-simple" id="active"><p>Report</p></a> </li>
+                <li> <a href="settings.html" class="fa fa-sliders"><p>Settings</p></a> </li>
+                
+                <br><br><br>
+                <li> <a href="" class="fa fa-sign-out"><p>Logout</p></a> </li>
+                <br><br><br>
+                <a class="fa fa-sliders"></a>
+            </ul>
+            </nav>
+
+            <div class=""></div>
+        </div>
+        <!-- side nav -->
+
+        <!-- s -->
+        <div class="s"></div>
+        <!-- s -->
+
+        <!-- Inner Dashboard -->
+        <div class="inner_div">
+
+            <!-- Top Section -->
+            <div class="top_section">    
+
+                <!-- Bar -->
+                <div class="top_info">
+                    <i id="bars" class="fa fa-bars" onclick="navOpen()"></i>
+                </div>
+                <!-- Bar -->
+
+                <div class="top_info">
+                    <div class="search">
+                        <!-- <br> -->
+                        <input type="text" name="" id="" placeholder="Search"> 
+                        <a href="" class="fa fa-search"></a>
+                    </div>
+                </div>
+
+            
+
+                <div class="top_info">
+                    <div class="user_info">
+                        <div class="user_icon">
+                            <i class="fa-regular fa-bell"></i>
+                            <i class="fa fa-circle-exclamation"></i>
+                        </div>
+
+                        <div class="user_details">
+                            <div class="user_img">
+                                <img src="Image/DSC_0123.jpg" alt="">
+                            </div>
+
+                            <div class="user_text">
+                                <b>Egbetokun Timilehin</b>
+                                <br>
+                                <p>Admin</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Top Section -->
+
+
+            <!-- inner_section -->
+            <div class="charts">
+
+                <!-- Details -->
+                <div class="charts_box">
+                    <p>Overview</p>
+                    <div id="chart1"></div>
+                </div>
+                <!-- <div class="charts_box">
+                    <div id="chart2"></div>
+                </div> -->
+                <!-- <div class="charts_box"></div> -->
+                <!-- Details -->
+
+
+            </div>
+            <!-- inner_section -->
+
+        </div>
+
+        
+
+
+    </div>
+    
+</body>
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script src="js/script.js"></script>
+<!-- JS -->
+
+</html>

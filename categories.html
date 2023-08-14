@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category</title>
+        <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Font -->
+
+    <!-- Font Awesome Icons-->
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/v4-shims.min.css">
+    <!-- Font Awesome Icons-->
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <div class="main_div">
+
+        <!-- side nav -->
+        <div class="side_nav" id="side_nav">
+            <div class="logo">
+                <div class="logo_inner">
+                    <img src="Image/logo-2.png" alt="">
+                </div>
+            <i class="fa fa-arrow-left" onclick="navClose()"></i>                
+            </div>
+            
+            <nav>
+            <ul>
+                <li> <a href="dashboard.html" class="fa fa-grip"><p>Dashboard</p></a> </li>
+                <li> <a href="categories.html" class="fa fa-align-left" id="active"><p>Category</p></a> </li>
+                <li> <a href="report.html" class="fa fa-chart-simple"><p>Report</p></a> </li>
+                <li> <a href="settings.html" class="fa fa-sliders"><p>Settings</p></a> </li>
+                
+                <br><br><br>
+                <li> <a href="" class="fa fa-sign-out"><p>Logout</p></a> </li>
+                <br><br><br>
+                <a class="fa fa-sliders"></a>
+            </ul>
+            </nav>
+
+            <div class=""></div>
+        </div>  
+        <!-- side nav -->
+
+        <!-- s -->
+        <div class="s"></div>
+        <!-- s -->
+
+        <!-- Inner Dashboard -->
+        <div class="inner_div">
+
+            <!-- Top Section -->
+            <div class="top_section">    
+
+                <!-- Bar -->
+                <div class="top_info">
+                    <i id="bars" class="fa fa-bars" onclick="navOpen()"></i>
+                </div>
+                <!-- Bar -->
+
+                <div class="top_info">
+                    <div class="search">
+                        <!-- <br> -->
+                        <input type="text" name="" id="" placeholder="Search"> 
+                        <a href="" class="fa fa-search"></a>
+                    </div>
+                </div>
+
+            
+
+                <div class="top_info">
+                    <div class="user_info">
+                        <div class="user_icon">
+                            <i class="fa-regular fa-bell"></i>
+                            <i class="fa fa-circle-exclamation"></i>
+                        </div>
+
+                        <div class="user_details">
+                            <div class="user_img">
+                                <img src="Image/DSC_0123.jpg" alt="">
+                            </div>
+
+                            <div class="user_text">
+                                <b>Egbetokun Timilehin</b>
+                                <br>
+                                <p>Admin</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Top Section -->
+
+
+            <!-- inner_section -->
+            <div class="category_inner">
+                <!-- <div class="set1"> -->
+                    <div class="category_title">
+                        <p>Categories</p>
+                        <br>
+                        <button>+ Add Category</button>
+                    </div>
+                <!-- </div> -->
+
+                <div class="set1">
+                    <a href="item1.html" class="cate">
+                        <b>Robotics</b>
+                    </a>
+                    <a href="" class="cate">
+                        <b>Robotics</b>
+                    </a>
+                    <a href="" class="cate">
+                        <b>Robotics</b>
+                    </a>
+                </div> 
+
+                 <div class="set1">
+                    <a href="" class="cate">
+                        <b>Robotics</b>
+                    </a>
+                    <a href="" class="cate">
+                        <b>Robotics</b>
+                    </a>
+                    <a href="" class="cate">
+                        <b>Robotics</b>
+                    </a>
+                </div>
+
+                <div class="set1">
+                    <a href="" class="cate">
+                        <b>Robotics</b>
+                    </a>
+                    <a href="" class="cate">
+                        <b>Robotics</b>
+                    </a>
+                    <a href="" class="cate">
+                        <b>Robotics</b>
+                    </a>
+                </div>
+                 
+            </div>
+            <!-- inner_section -->
+
+        </div>
+
+        
+
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

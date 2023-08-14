@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setting</title>
+        <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Font -->
+
+    <!-- Font Awesome Icons-->
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/v4-shims.min.css">
+    <!-- Font Awesome Icons-->
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <div class="main_div">
+
+        <!-- side nav -->
+        <div class="side_nav" id="side_nav">
+            <div class="logo">
+                <div class="logo_inner">
+                    <img src="Image/logo-2.png" alt="">
+                </div>
+            <i class="fa fa-arrow-left" onclick="navClose()"></i>                
+
+            </div>
+            
+            <nav>
+            <ul>
+                <li> <a href="dashboard.html" class="fa fa-grip"><p>Dashboard</p></a> </li>
+                <li> <a href="categories.html" class="fa fa-align-left"><p>Category</p></a> </li>
+                <li> <a href="report.html" class="fa fa-chart-simple"><p>Report</p></a> </li>
+                <li> <a href="settings.html" class="fa fa-sliders" id="active"><p>Settings</p></a> </li>
+                
+                <br><br><br>
+                <li> <a href="" class="fa fa-sign-out"><p>Logout</p></a> </li>
+                <br><br><br>
+                <a class="fa fa-sliders"></a>
+            </ul>
+            </nav>
+
+            <div class=""></div>
+        </div>
+        <!-- side nav -->
+
+        <!-- s -->
+        <div class="s"></div>
+        <!-- s -->
+
+        <!-- Inner Dashboard -->
+        <div class="inner_div">
+
+            <!-- Top Section -->
+            <div class="top_section">    
+
+                <!-- Bar -->
+                <div class="top_info">
+                    <i id="bars" class="fa fa-bars" onclick="navOpen()"></i>
+                </div>
+                <!-- Bar -->
+
+                <div class="top_info">
+                    <div class="search">
+                        <!-- <br> -->
+                        <input type="text" name="" id="" placeholder="Search"> 
+                        <a href="" class="fa fa-search"></a>
+                    </div>
+                </div>
+
+            
+
+                <div class="top_info">
+                    <div class="user_info">
+                        <div class="user_icon">
+                            <i class="fa-regular fa-bell"></i>
+                            <i class="fa fa-circle-exclamation"></i>
+                        </div>
+
+                        <div class="user_details">
+                            <div class="user_img">
+                                <img src="Image/DSC_0123.jpg" alt="">
+                            </div>
+
+                            <div class="user_text">
+                                <b>Egbetokun Timilehin</b>
+                                <br>
+                                <p>Admin</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Top Section -->
+
+        <!-- Setting -->
+        <div class="setting">
+            <p>User Profile</p>
+            <div class="user_details">
+                <div class="user_img">
+                    <img src="Image/DSC_0121.jpg " alt="">
+                </div>
+
+                <div class="user_text">
+                    <b>Egbetokun Timilehin</b>
+                    <br><br>
+                    <p>Update your photo and personnal details</p>
+                </div>
+            </div>
+
+            <div class="user_form">
+                <form action="">
+                <div class="name">
+                    <label for="fullName">Full Name:</label>
+
+                    <div class="input">
+                    <input type="text" name="fullName" id="" required/>
+                    </div>
+                </div>
+
+                <div class="name">
+                    <label for="userName">User Name:</label>
+                    <div class="input">
+                    <input type="text" name="userName" id="" required/>
+                    </div>
+                </div>
+
+
+                <div class="name">
+                    <label for="email">Email:</label>
+
+                    <div class="input">
+                    <input type="email" name="email" id="" required/>
+                    </div>
+                </div>
+
+                <div class="name">
+                    <label for="password">Password:</label>
+                    <div class="input">
+                    <input type="password" name="password" id="" required/>
+                    </div>
+                </div>
+
+ 
+                <!-- Buttons -->
+                <div class="button">
+                    <button>Submit</button>
+                    <button>Cancel</button>
+                </div>
+                <!-- Buttons -->
+                </form>
+            </div>
+        </div>
+        <!-- Setting -->
+
+        </div>
+
+        
+
+
+    </div>
+    
+</body>
+
+<!-- Script -->
+<script src="js/script.js"></script>
+<!-- Script -->
+
+</html>
